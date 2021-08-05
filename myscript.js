@@ -8,4 +8,8 @@ var surname = prompt("scrivi il tuo cognome")
 
 var FavouriteColor = prompt("scrivi il tuo colore preferito")
 
-var password = (dataOfBirth + surname + FavouriteColor).innerHTML
+let number = parseInt( Math.random()* 100);
+
+
+
+document.getElementById("password").innerHTML = dataOfBirth + surname + FavouriteColor + number
